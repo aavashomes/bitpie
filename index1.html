@@ -1,0 +1,501 @@
+	<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="IMG_20200623_180024.jpg">
+		<!-- Author Meta -->
+		<meta name="author" content="colorlib">
+		<!-- Meta Description -->
+		<meta name="description" content="BITPIE INFOTECH">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="BITPIE INFOTECH">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<title>BITPIE INFOTECH</title>
+<!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+#loader{
+position:fixed;
+width:100%;
+height:100%;
+background : #f1f2f3  url('3.gif')
+no-repeat center;
+z-index: 99999;
+}
+</style>
+		
+		<style>
+body {
+  padding:5px;
+
+}
+
+.switch {
+    align-self: flex-end;
+    margin: 0.9375rem;
+}
+.inner-switch {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 1.25rem;
+    width: 3.125rem;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.1875rem;
+    margin-left: 0.3125rem;
+}
+
+
+
+</style>
+<script>
+$(document).ready(function(){
+  $("button[name='dark']").click(function(){
+   if( $( "body" ).hasClass( "body" )  ) 
+   {
+   $( "body" ).removeClass( "body" );
+   $( ".inner-switch" ).text( "OFF" );
+    $("span").removeClass("blue");
+$("span1").removeClass("span1")
+   }
+   if($("h1, h2, p, h3, h6").hasClass("blue"))
+   {
+   $( "h1, h2, p, h3, h6" ).removeClass( "blue" );
+   $( ".inner-switch" ).text( "OFF" );
+    $("span").removeClass("blue");
+   }
+      if($("div").hasClass("important"))
+   {
+   $( "div" ).removeClass( "important" );
+   $( ".inner-switch" ).text( "OFF" );
+    $("span").removeClass("blue");
+   }
+   else{
+    $( "body" ).addClass( "body" );
+    $("h1, h2, p, h3, h6").addClass("blue");
+    $("div").addClass("important");
+     $("span").addClass("span");
+$(".lnr lnr-laptop-phone").addClass("span1");
+     $( ".inner-switch" ).text( "ON" );
+    }
+  });
+});
+
+</script>
+<style>
+.body
+{
+background-color:black;
+}
+.important {
+ 
+  color:white;
+}
+
+.blue {
+  color: white;
+}
+.span{color: green;}
+.span1{color:white;}
+</style>
+		
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/magnific-popup.css">
+			<link rel="stylesheet" href="css/jquery-ui.css">				
+			<link rel="stylesheet" href="css/nice-select.css">							
+			<link rel="stylesheet" href="css/animate.min.css">
+			<link rel="stylesheet" href="css/owl.carousel.css">				
+			<link rel="stylesheet" href="css/main.css">
+		</head>
+		<body onload="stoploader()">	
+		<div id="loader"></div>
+		  <header id="header">
+		    <div class="container main-menu">
+		    	<div class="row align-items-center justify-content-between d-flex">
+			      <div id="logo">
+			        <a href="index.html"><h4 >BITPIE INFOTECH</h4>
+			      </div>
+			      <nav id="nav-menu-container">
+			        <ul class="nav-menu">
+			          <li><a href="index.html">Home</a></li>
+			          
+			          <li><a href="#service">Services</a></li>				          					         <li><a href="#videos">Videos</a></li>  		          
+			          <li><a href="contact.html">Contact Us</a></li>
+					<li><a href="#"><span class="lnr lnr-phone" style="color:black">+91 7000400121</span></a></li>
+					<li>
+ <button style="background-color:#273746;color:white;border:none; padding: 1px 12px;" class="w3-button w3-black w3-round-xxlarge" name="dark">Dark Mode</button>
+ <span class="inner-switch">OFF</span></li>
+
+			        </ul>
+			      </nav><!-- #nav-menu-container -->		    		
+		    	</div>
+		    </div>
+		  </header><!-- #header -->
+			  <br><br><br>
+
+							<h1>BITPIE INFOTECH</h1>
+                            <img class="img-fluid"src="IMG_20200623_180024.jpg" style="align:center;width:600px"><br>
+							<h3>
+                                <br>
+								Build Things !!
+							</h3><br>
+							<a href="tel:7000400121" class="primary-btn text-uppercase">CALL US</a>
+			
+			<!-- End banner Area -->
+
+			<!-- Start home-about Area -->
+<!--
+			<section class="home-about-area pt-120">
+				<div class="container">
+					<div class="row align-items-center justify-content-between">
+						<div class="col-lg-6 col-md-6 home-about-left">
+							<img class="img-fluid" src="img/about-img.png" alt="">
+						</div>
+						<div class="col-lg-5 col-md-6 home-about-right">
+							<h6>About Me</h6>
+							<h1 class="text-uppercase">Personal Details</h1>
+							<p>
+								Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+							</p>
+							<a href="#" class="primary-btn text-uppercase">View Full Details</a>
+						</div>
+					</div>
+				</div>	
+			</section>
+-->
+			<!-- End home-about Area -->
+
+			<!-- Start services Area -->
+			<section class="services-area section-gap">
+				<div class="container"  id="service">
+		            <div class="row d-flex justify-content-center">
+		                <div class="menu-content  col-lg-7">
+		                    <div class="title text-center">
+		                        <h1 class="mb-10"> Offered Services</h1>
+		                        <p></p>
+		                    </div>
+		                </div>
+		            </div>						
+					<div class="row">
+						<div class="col-lg-4 col-md-6">
+							<div class="single-services">
+								<i class="fa fa-laptop" style="font-size:40px"></i>
+								<a href="#"><h4 style="color:#2980b9">Web Development</h4></a>
+								<h6>
+									MERN Stack + Hosting <br>LAMP Stack + Hosting <br> MEAN Stack
+								</h6><br>
+										<a href="tel:7000400121" style="background-color:#52be80"class="primary-btn text-uppercase"> <i class="fa fa-phone" aria-hidden="true"></i> CALL For Details</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="single-services">
+								<i class="fa fa-mobile" style="font-size:40px"></i>
+								<a href="#"><h4 style="color:#2980b9">App Development</h4></a>
+								<h6>
+									Android Apps <br> Machine Learning Integrated Apps
+								</h6><br>
+										<a href="tel:7000400121" style="background-color:#52be80"class="primary-btn text-uppercase"> <i class="fa fa-phone" aria-hidden="true"></i> CALL For Details</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="single-services">
+								<i class="fa fa-cubes" style="font-size:40px"></i>
+								<a href="#"><h4 style="color:#2980b9">Blockchain   </h4></a>
+								<h6>
+									Decentralized Apps <br>Smart Contracts
+								</h6><br>
+										<a href="tel:7000400121" style="background-color:#52be80"class="primary-btn text-uppercase"> <i class="fa fa-phone" aria-hidden="true"></i> CALL For Details</a>
+							</div>	
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="single-services">
+								<i class="fa fa-gears" style="font-size:40px"></i>
+								<a href="#"><h4 style="color:#2980b9">Machine Learning   </h4></a>
+								<h6>
+									Crime Detection <br>NLP Chatbots <br> Disease Detection <br> Object Detection <br> Facial Recognition Software <br> Personal Assistants
+								</h6><br>
+										<a href="tel:7000400121" style="background-color:#52be80"class="primary-btn text-uppercase"> <i class="fa fa-phone" aria-hidden="true"></i> CALL For Details</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="single-services">
+									<i class="fa fa-id-card" style="font-size:40px"></i>
+										<a href="#"><h4 style="color:#2980b9">Facial Recognition Cameras   </h4></a>
+								<h6>
+Cameras With Facial Recognition Integrated 
+</h6><br>
+										<a href="tel:7000400121" style="background-color:#52be80"class="primary-btn text-uppercase"> <i class="fa fa-phone" aria-hidden="true"></i> CALL For Details</a>
+							</div>
+						</div>
+																			
+					</div>
+				</div>	
+			</section>
+			<!-- End services Area -->	
+<!-- SLIDER -->
+<div class="container text-center my-3">
+    <h2 class="font-weight-light"></h2>
+    <div class="row mx-auto my-auto">
+        <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+            <div class="carousel-inner w-100" role="listbox">
+                <div class="carousel-item active">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                            <img class="img-fluid" src="python.png" style="width:60%;margin-left:auto;margin-right:auto">
+							<h4>Python</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                        <img class="img-fluid" src="ml3.png" style="margin-left:auto;margin-right:auto">
+							<h4>Machine Learning</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                          <img class="img-fluid" src="blockchain.png" style="margin-left:auto;margin-right:auto">
+							<h4>Blockchain</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                           <img class="img-fluid" src="aws.jpg" style="margin-left:auto;margin-right:auto">
+							<h4>AWS</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                        <img class="img-fluid" src="php.jpg" style="margin-left:auto;margin-right:auto">
+							<h4>PHP/MYSQL</h4>
+                        </div>
+                    </div>
+                </div>
+  <div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                        <img class="img-fluid" src="devopd.png" style="margin-left:auto;margin-right:auto">
+							<h4>DEVOPS</h4>
+                        </div>
+                    </div>
+                </div>
+  <div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                        <img class="img-fluid" src="mern.png" style="margin-left:auto;margin-right:auto">
+							<h4>MERN Stack</h4>
+                        </div>
+                    </div>
+                </div>
+<div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                        <img class="img-fluid" src="iot.png" style="margin-left:auto;margin-right:auto">
+							<h4>Internet Of Things</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                         <img class="img-fluid" src="google.png" style="margin-left:auto;margin-right:auto">
+							<h4>Google Cloud</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+   
+</div>
+
+
+
+
+<style>
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+
+
+</style>
+
+<script>
+$('#recipeCarousel').carousel({
+  interval: 10000
+})
+
+$('.carousel .carousel-item').each(function(){
+    var minPerSlide = 3;
+    var next = $(this).next();
+    if (!next.length) {
+    next = $(this).siblings(':first');
+    }
+    next.children(':first-child').clone().appendTo($(this));
+    
+    for (var i=0;i<minPerSlide;i++) {
+        next=next.next();
+        if (!next.length) {
+        	next = $(this).siblings(':first');
+      	}
+        
+        next.children(':first-child').clone().appendTo($(this));
+      }
+});
+
+</script>
+
+<br>
+
+			<!-- Start fact Area -->
+			<section class="facts-area section-gap" id="facts-area">
+				<div class="container">				
+					<div class="row">
+						<div class="col-lg-3 col-md-6 single-fact">
+							<h1 class="counter">20</h1>
+							<p>Projects Completed</p>
+						</div>
+						<div class="col-lg-3 col-md-6 single-fact">
+							<h1 class="counter">10</h1>
+							<p>Happy Clients</p>
+						</div>
+						<div class="col-lg-3 col-md-6 single-fact">
+							<h1 class="counter">223</h1>
+							<p>Cups of Coffee</p>
+						</div>	
+						<div class="col-lg-3 col-md-6 single-fact">
+							<h1 class="counter">15</h1>
+							<p>Real Professionals</p>
+						</div>												
+					</div>
+				</div>	
+			</section>
+
+ 			
+
+            <!-- start footer Area -->
+            <footer class="footer-area section-gap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-6 col-sm-6">
+                            <div class="single-footer-widget">
+                                <h4>About Me</h4>
+                                <p style="color:white">
+                                   Bitpie is the freelancing service , we build projects for Organisations , Students .
+                                    We also build Minor / Major engineering projects.
+                                </p>
+                                <p class="footer-text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                            </div>
+                        </div>
+                       
+                        
+                        <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+                            <div class="single-footer-widget">
+                                <h4><mark>Services  </h4>
+                                <div >
+                                   <p style="color:white">Web Development<br>App Development <br> Machine Learning <br> Blockchain <br> Internet Of Things</p><br>
+								 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<br>
+										<a href="tel:7000400121" style="background-color:#52be80"class="primary-btn text-uppercase"> <i class="fa fa-phone" aria-hidden="true"></i> CALL For Details</a>
+                </div>
+
+            </footer>
+            <!-- End footer Area -->		
+  <!-- loader -->
+  <!-- loader -->
+<script>
+var pre=document.getElementById('loader');
+
+function stoploader()
+{
+pre.style.display = 'none';
+}
+</script>
+			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="js/popper.min.js"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>			
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>			
+  			<script src="js/easing.min.js"></script>			
+			<script src="js/hoverIntent.js"></script>
+			<script src="js/superfish.min.js"></script>	
+			<script src="js/jquery.ajaxchimp.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>	
+    		<script src="js/jquery.tabs.min.js"></script>						
+			<script src="js/jquery.nice-select.min.js"></script>	
+            <script src="js/isotope.pkgd.min.js"></script>			
+			<script src="js/waypoints.min.js"></script>
+			<script src="js/jquery.counterup.min.js"></script>
+			<script src="js/simple-skillbar.js"></script>							
+			<script src="js/owl.carousel.min.js"></script>							
+			<script src="js/mail-script.js"></script>	
+			<script src="js/main.js"></script>	
+		</body>
+	</html>
